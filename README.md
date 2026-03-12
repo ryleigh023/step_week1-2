@@ -1,26 +1,105 @@
-# Step Week 1-2
+---
 
-Welcome to the documentation for the Step Week 1-2 project! 🚀 Here, we outline the various problems and solutions encountered during the project development.
+## Problem List
 
-## Table of Problems 🤔
-| Problem | Description |
-| ------- | ----------- |
-| Problem 1 | Explanation of problem 1 |
-| Problem 2 | Explanation of problem 2 |
-| Problem 3 | Explanation of problem 3 |
+### **Problem 1: Social Media Username Availability Checker**
+- **Scenario:** Check if usernames are available in real-time for 10M users.
+- **Concepts:** Hash tables, O(1) lookup, frequency counting, suggestions.
+- **Use Cases:** Twitter/Instagram registration, gaming platforms.
+- **File:** `Problem1.java`
 
-## Structure of the Project 📁
-1. **Introduction**
-   - Overview of the project
-2. **Methodology**
-   - How we approached the problems
-3. **Findings**
-   - Key results and observations
-4. **Conclusion**
-   - Summary of the project's outcomes
+---
 
-## Formatting Guidelines 📑
-- Use headings to separate sections clearly.
-- Use bullet points or numbered lists for clarity when listing items.
+### **Problem 2: E-commerce Flash Sale Inventory Manager**
+- **Scenario:** Handle 50,000 concurrent purchase requests for limited stock.
+- **Concepts:** HashMap for stock, synchronized updates, FIFO waiting list.
+- **Use Cases:** Amazon Prime Day deals, ticket booking.
+- **File:** `Problem2.java`
 
-Feel free to explore the repository and contribute! 😊
+---
+
+### **Problem 3: DNS Cache with TTL**
+- **Scenario:** Reduce DNS lookup from 100ms → <1ms with caching.
+- **Concepts:** HashMap with TTL, expiration, LRU eviction, cache hits/misses.
+- **Use Cases:** Browser DNS cache, CDN edge servers.
+- **File:** `Problem3.java`
+
+---
+
+### **Problem 4: Plagiarism Detection System**
+- **Scenario:** Detect plagiarism across 100,000 essays efficiently.
+- **Concepts:** N-grams, hash maps, similarity calculation.
+- **Use Cases:** Academic plagiarism detection (Turnitin), code similarity.
+- **File:** `Problem4.java`
+
+---
+
+### **Problem 5: Real-Time Analytics Dashboard**
+- **Scenario:** Track website traffic with 1M page views/hour.
+- **Concepts:** HashMaps for page views, unique visitors, traffic sources.
+- **Use Cases:** Google Analytics, trending topics, e-commerce tracking.
+- **File:** `Problem5.java`
+
+---
+
+### **Problem 6: Distributed Rate Limiter**
+- **Scenario:** Limit API requests for 100,000 clients efficiently.
+- **Concepts:** Token bucket, hash tables, time-based counters.
+- **Use Cases:** API gateways, GitHub API rate limits, payment APIs.
+- **File:** `Problem6.java`
+
+---
+
+### **Problem 7: Autocomplete System**
+- **Scenario:** Suggest search queries in real-time from 10M previous queries.
+- **Concepts:** Trie + HashMap, frequency counting, typo correction.
+- **Use Cases:** Search engines, Amazon suggestions, IDE code completion.
+- **File:** `Problem7.java`
+
+---
+
+### **Problem 8: Parking Lot Management**
+- **Scenario:** Track 500 parking spots, optimize allocation.
+- **Concepts:** Open addressing, linear probing, hash functions, statistics.
+- **Use Cases:** Airport/mall parking systems, smart parking apps.
+- **File:** `Problem8.java`
+
+---
+
+### **Problem 9: Two-Sum Problem Variants**
+- **Scenario:** Detect fraudulent transactions, duplicates, and K-sum patterns.
+- **Concepts:** Hash maps, complement lookup, time-window filtering.
+- **Use Cases:** Fraud detection, financial transaction analysis.
+- **File:** `Problem9.java`
+
+---
+
+### **Problem 10: Multi-Level Cache System**
+- **Scenario:** Optimize caching for 10M concurrent users (memory → SSD → DB).
+- **Concepts:** Hash maps, LRU eviction, cache promotion, performance tracking.
+- **Use Cases:** Netflix video streaming, CDN caching, DB query optimization.
+- **File:** `Problem10.java`
+
+---
+
+## How to Run
+
+1. Open the project in **IntelliJ IDEA**.
+2. Navigate to `App/src/`.
+3. Open the Java file (e.g., `Problem1.java`).
+4. Run the `main` method in the file.
+5. Repeat for other problems.
+
+---
+
+## Notes
+
+- Each problem is **self-contained** in a single Java file.
+- Some problems use **HashMaps**, **queues**, **sets**, or **priority queues**.
+- Designed for **learning hash table applications and concurrency** in Java.
+
+---
+
+##  Author
+
+RA2411026010734 - Java Problem Solutions Repository
